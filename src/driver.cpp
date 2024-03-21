@@ -20,7 +20,7 @@ SNESControllerDriver::SNESControllerDriver() : terminators(
         { "exit", "quit", "terminate", "close", "stop", "shutdown" } ),
                                                portname( "/dev/ttyUSB0" ),
                                                buttonMappings( new unsigned char[12]{ KEY_B, KEY_Y, KEY_E /*select*/,
-                                                                                      KEY_M /*start*/, KEY_UP, KEY_DOWN,
+                                                                                      KEY_M /*start*/, KEY_W, KEY_S,
                                                                                       KEY_LEFT,
                                                                                       KEY_RIGHT, KEY_A, KEY_X, KEY_L,
                                                                                       KEY_R
