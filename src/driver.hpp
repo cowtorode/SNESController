@@ -1,6 +1,9 @@
-//
-// Created by cory on 3/19/24.
-//
+/*
+ * File: driver.hpp
+ * Author: Cory Torode
+ * Creation Date: 03/19/2024
+ * Description: SNES Controller Driver header.
+ */
 
 #ifndef SNESCONTROLLERDRIVER_DRIVER_HPP
 #define SNESCONTROLLERDRIVER_DRIVER_HPP

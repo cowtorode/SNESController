@@ -1,3 +1,11 @@
+/*
+ * File: adapter.cpp
+ * Author: Cory Torode
+ * Creation Date: 03/18/2024
+ * Description: Arduino SNES Controller adapter, reads the SNES Controller and forwards it to the driver.
+ * (Made for the Arduino Nano)
+ */
+
 #define CLOCK_PIN 2    // Clock pin of the SNES controller connected to Arduino pin 2 (D2)
 #define LATCH_PIN 3    // Latch pin of the SNES controller connected to Arduino pin 3 (D3)
 #define DATA_PIN 4     // Data pin of the SNES controller connected to Arduino pin 4 (D4)

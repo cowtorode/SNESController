@@ -1,6 +1,9 @@
-//
-// Created by cory on 3/19/24.
-//
+/*
+ * File: driver.cpp
+ * Author: Cory Torode
+ * Creation Date: 03/19/2024
+ * Description: SNES Controller Driver made to work with the adapter.cpp data sent from an Arduino
+ */
 
 #include <thread>
 
