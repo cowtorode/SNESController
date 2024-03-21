@@ -17,7 +17,7 @@
 #include <fcntl.h> // Contains file controls like O_RDWR
 #include <termios.h> // Contains POSIX terminal control definitions
 #include <unistd.h> // write(), read(), close()
-#include <bitset>
+// #include <bitset>
 
 SNESControllerDriver::SNESControllerDriver() : terminators(
         { "exit", "quit", "terminate", "close", "stop", "shutdown" } ),
